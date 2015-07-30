@@ -48,12 +48,8 @@ class HelloWorldTest extends PHPUnit_Framework_TestCase
     }
 
     public function testtweet(){
-        define('CONSUMER_KEY', 'zrSHDcHAS8mm6RofzbG1qemZI');
-        define('CONSUMER_SECRET.', 'tsKT2Y3XYnCzf0SEhb7wANyDXrJVsDnmZtgSRWXcmJTUdGk91b');
-        define('ACCESS_TOKEN', '714419437-9fXtejidHn8AzlggLet8AFkDjjJ1mVoYuYDUa9WQ');
-        define('ACCESS_TOKEN_SECRET', 'LEcNKVMsJkgKs2z7WenI7mAKPrsFqIEpX4yEQBBXJbnmK');
 
-        $toa = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
+        $toa = new TwitterOAuth("zrSHDcHAS8mm6RofzbG1qemZI", "tsKT2Y3XYnCzf0SEhb7wANyDXrJVsDnmZtgSRWXcmJTUdGk91b", "9fXtejidHn8AzlggLet8AFkDjjJ1mVoYuYDUa9WQ", "LEcNKVMsJkgKs2z7WenI7mAKPrsFqIEpX4yEQBBXJbnmK");
 
         $query = array(
             "q" => "#IamFan",
