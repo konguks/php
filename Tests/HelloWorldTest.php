@@ -1,6 +1,6 @@
 <?php
 
-require_once getcwd().'/twitteroauth/autoload.php';
+require_once 'twitteroauth/autoload.php';
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 class HelloWorldTest extends PHPUnit_Framework_TestCase
