@@ -1,5 +1,8 @@
 <?php
 
+require_once getcwd().'/twitteroauth/autoload.php';
+use Abraham\TwitterOAuth\TwitterOAuth;
+
 class HelloWorldTest extends PHPUnit_Framework_TestCase
 {
     /**
@@ -42,6 +45,25 @@ class HelloWorldTest extends PHPUnit_Framework_TestCase
         $helloWorld->hello('Bar');
 
         $this->assertEquals('Bar', $helloWorld->what());
+    }
+
+    public function testtweet(){
+        define('CONSUMER_KEY', 'zrSHDcHAS8mm6RofzbG1qemZI');
+        define('CONSUMER_SECRET.', 'tsKT2Y3XYnCzf0SEhb7wANyDXrJVsDnmZtgSRWXcmJTUdGk91b');
+        define('ACCESS_TOKEN', '714419437-9fXtejidHn8AzlggLet8AFkDjjJ1mVoYuYDUa9WQ');
+        define('ACCESS_TOKEN_SECRET', 'LEcNKVMsJkgKs2z7WenI7mAKPrsFqIEpX4yEQBBXJbnmK');
+
+        $toa = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET);
+
+        $query = array(
+            "q" => "#IamFan",
+            "count" => 100
+        );
+
+        $results = $toa->get('search/tweets', $query);
+
+        $this->assertNotEquals(NULL,$results);
+
     }
 }
 
