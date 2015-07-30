@@ -49,10 +49,10 @@
         <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7481884">
-              <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding>
-                <marker date="1438256888383" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
-                <marker date="1438256888383" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
+                <marker date="1438256988898" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
+                <marker date="1438256988898" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
               </folding>
             </state>
           </provider>
@@ -362,10 +362,10 @@
     <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7481884">
-          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
-            <marker date="1438256888383" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
-            <marker date="1438256888383" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
+            <marker date="1438256988898" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
+            <marker date="1438256988898" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
           </folding>
         </state>
       </provider>

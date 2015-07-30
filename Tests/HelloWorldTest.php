@@ -60,7 +60,7 @@ class HelloWorldTest extends PHPUnit_Framework_TestCase
 
         $arr = json_decode(json_encode($results),true);
 
-        $this->assertNotEquals(0,array_count_values($arr));
+        $this->assertNotEquals(0,count($arr));
 
     }
 }
