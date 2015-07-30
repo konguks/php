@@ -58,7 +58,7 @@ class HelloWorldTest extends PHPUnit_Framework_TestCase
 
         $results = $toa->get('search/tweets', $query);
 
-        $arr = json_decode((string)$results,true);
+        $arr = json_decode(json_encode($results),true);
 
         $this->assertNotEquals(NULL,$arr[0]->id_str);
 

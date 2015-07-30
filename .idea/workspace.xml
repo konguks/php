@@ -48,11 +48,11 @@
       <file leaf-file-name="HelloWorldTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8097826">
-              <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.6865942">
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
               <folding>
-                <marker date="1438255968661" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
-                <marker date="1438255968661" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
+                <marker date="1438256236116" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
+                <marker date="1438256236116" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
               </folding>
             </state>
           </provider>
@@ -361,11 +361,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8097826">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.6865942">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
           <folding>
-            <marker date="1438255968661" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
-            <marker date="1438255968661" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
+            <marker date="1438256236116" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
+            <marker date="1438256236116" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
           </folding>
         </state>
       </provider>
