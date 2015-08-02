@@ -1,7 +1,5 @@
 <?php
 
-require_once 'twitteroauth/autoload.php';
-use Abraham\TwitterOAuth\TwitterOAuth;
 
 class HelloWorldTest extends PHPUnit_Framework_TestCase
 {
@@ -47,21 +45,5 @@ class HelloWorldTest extends PHPUnit_Framework_TestCase
         $this->assertEquals('Bar', $helloWorld->what());
     }
 
-    public function testtweet(){
-
-        $toa = new TwitterOAuth("zrSHDcHAS8mm6RofzbG1qemZI", "tsKT2Y3XYnCzf0SEhb7wANyDXrJVsDnmZtgSRWXcmJTUdGk91b", "9fXtejidHn8AzlggLet8AFkDjjJ1mVoYuYDUa9WQ", "LEcNKVMsJkgKs2z7WenI7mAKPrsFqIEpX4yEQBBXJbnmK");
-
-        $query = array(
-            "q" => "#IamFan",
-            "count" => 100
-        );
-
-        $results = $toa->get('search/tweets', $query);
-
-        $arr = json_decode(json_encode($results),true);
-
-        $this->assertNotEquals(0,count($arr));
-
-    }
 }
 

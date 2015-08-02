@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed68a185-3c31-45cb-9ca0-408cbd121c60" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\composer.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\Config.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\Consumer.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\HmacSha1.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\Request.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\Response.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\SignatureMethod.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\Token.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\TwitterOAuth.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\TwitterOAuthException.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\Util.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\Util\JsonDecoder.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\kongu\Documents\GitHub\php\Tests\twitteroauth\src\cacert.pem" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/HelloWorldTest.php" afterPath="$PROJECT_DIR$/Tests/HelloWorldTest.php" />
     </list>
     <ignored path="php.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,23 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldTest.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelloWorldTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.163637">
-              <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.18715596">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
-                <marker date="1438495250393" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
-                <marker date="1438495250393" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
+                <marker date="1438498768361" expanded="true" signature="355:401" placeholder="CREATE TABLE..hello..." />
+                <marker date="1438498768361" expanded="true" signature="476:492" placeholder="DROP TABLE h..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phpunit_mysql.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="phpunit_mysql.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpunit_mysql.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31166667">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
               <folding />
             </state>
@@ -294,8 +276,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1438495250393" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
-            <marker date="1438495250393" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
+            <marker date="1438498768361" expanded="true" signature="355:401" placeholder="CREATE TABLE..hello..." />
+            <marker date="1438498768361" expanded="true" signature="476:492" placeholder="DROP TABLE h..." />
           </folding>
         </state>
       </provider>
@@ -351,17 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.163637">
-          <caret line="62" column="33" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-          <folding>
-            <marker date="1438495250393" expanded="true" signature="436:482" placeholder="CREATE TABLE..hello..." />
-            <marker date="1438495250393" expanded="true" signature="557:573" placeholder="DROP TABLE h..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -372,9 +343,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phpunit_mysql.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31166667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/HelloWorldTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18715596">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <marker date="1438498768361" expanded="true" signature="355:401" placeholder="CREATE TABLE..hello..." />
+            <marker date="1438498768361" expanded="true" signature="476:492" placeholder="DROP TABLE h..." />
+          </folding>
         </state>
       </provider>
     </entry>
